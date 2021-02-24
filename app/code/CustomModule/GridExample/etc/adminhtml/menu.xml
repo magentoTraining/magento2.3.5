@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="CustomModule_GridExample::formexample" title="Grid Example" module="CustomModule_GridExample" sortOrder="51" resource="CustomModule_GridExample::formexample"/>
-        <add id="CustomModule_GridExample::customer" title="Manage Customers" module="CustomModule_GridExample" sortOrder="10" action="custommodule_gridexample/customer" resource="CustomModule_GridExample::customer" parent="CustomModule_GridExample::formexample"/>
-        <add id="CustomModule_GridExample::formexample_configuration" title="Configuration" module="CustomModule_GridExample" sortOrder="99" parent="CustomModule_GridExample::formexample" action="adminhtml/system_config/edit/section/formexample" resource="CustomModule_GridExample::formexample_configuration"/>
+        <add id="CustomModule_GridExample::formexample" title="Grid Example" module="CustomModule_GridExample" sortOrder="51" dependsOnModule="CustomModule_GridExample" resource="CustomModule_GridExample::formexample"/>
+        <add id="CustomModule_GridExample::customer" title="Manage Customers" module="CustomModule_GridExample" sortOrder="10" action="custommodule_gridexample/customer" dependsOnModule="CustomModule_GridExample" resource="CustomModule_GridExample::customer" parent="CustomModule_GridExample::formexample"/>
+        <add id="CustomModule_GridExample::formexample_configuration" title="Configuration" module="CustomModule_GridExample" sortOrder="99" parent="CustomModule_GridExample::formexample" dependsOnModule="CustomModule_GridExample"  action="adminhtml/system_config/edit/section/formexample" resource="CustomModule_GridExample::formexample_configuration"/>
     </menu>
 </config>
