@@ -27,7 +27,7 @@ class PageActions extends FormPageActions
     protected $warningBlock = '.ui-widget-content .ui-dialog-buttonset button:first-child';
 
     /**
-     * Change Store View selector.
+     * Change Store view selector.
      *
      * @var string
      */
@@ -55,7 +55,7 @@ class PageActions extends FormPageActions
     }
 
     /**
-     * Select Store View.
+     * Select Store view.
      *
      * @param string $name
      * @return void

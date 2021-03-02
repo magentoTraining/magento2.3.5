@@ -12,7 +12,7 @@ namespace Magento\Sales\Test\Block\Adminhtml\CreditMemo;
 class Grid extends \Magento\Ui\Test\Block\Adminhtml\DataGrid
 {
     /**
-     * Locator value for "View" link inside action column.
+     * Locator value for "view" link inside action column.
      *
      * @var string
      */

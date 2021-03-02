@@ -21,7 +21,7 @@ class ConfigurableProductFrontendLabelAttributeTest extends GraphQlAbstract
      */
     public function testGetFrontendLabelAttribute()
     {
-        $expectLabelValue = 'Default Store View label';
+        $expectLabelValue = 'Default Store view label';
         $productSku = 'configurable';
 
         $query = <<<QUERY

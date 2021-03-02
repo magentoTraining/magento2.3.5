@@ -36,7 +36,7 @@ class Curl extends AbstractCurl implements RatingInterface
      * @var array
      */
     protected $mappingStores = [
-        'Main Website/Main Website Store/Default Store View' => 1,
+        'Main Website/Main Website Store/Default Store view' => 1,
     ];
 
     /**

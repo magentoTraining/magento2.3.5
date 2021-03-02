@@ -10,7 +10,7 @@ use Magento\Backend\Test\Page\Adminhtml\EditStore;
 use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
- * Assert that after Store View save disabled error message appears.
+ * Assert that after Store view save disabled error message appears.
  */
 class AssertStoreDisabledErrorSaveMessage extends AbstractConstraint
 {
@@ -20,7 +20,7 @@ class AssertStoreDisabledErrorSaveMessage extends AbstractConstraint
     const ERROR_MESSAGE = 'The default store cannot be disabled';
 
     /**
-     * Assert that after Store View save disabled error message appears.
+     * Assert that after Store view save disabled error message appears.
      *
      * @param EditStore $editStore
      * @return void
@@ -41,6 +41,6 @@ class AssertStoreDisabledErrorSaveMessage extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Store View disabled error create message is present.';
+        return 'Store view disabled error create message is present.';
     }
 }

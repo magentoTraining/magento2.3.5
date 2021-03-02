@@ -22,7 +22,7 @@ use Magento\Mtf\TestCase\Injectable;
  * Steps:
  * 1. Open Backend
  * 2. Go to Stores -> All Stores
- * 3. Click "Create Store View" button
+ * 3. Click "Create Store view" button
  * 4. Fill data according to dataset - Warning message "This operation can take a long time" appears.
  * 5. Click "OK".
  * 6. Perform all assertions

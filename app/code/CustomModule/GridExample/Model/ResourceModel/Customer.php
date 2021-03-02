@@ -8,6 +8,10 @@ use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
 class Customer extends AbstractDb
 {
+	public function __construct(\Magento\Framework\Model\ResourceModel\Db\Context $context)
+	{
+		patrent::__construct($context);
+	}
 
     /**
      * Resource initialization
@@ -16,6 +20,6 @@ class Customer extends AbstractDb
      */
     protected function _construct()
     {
-        $this->_init('custommodule_gridexample_formexample', 'id');
+        $this->_init('custommodule_gridexample_formexample', 'customer_id');
     }
 }

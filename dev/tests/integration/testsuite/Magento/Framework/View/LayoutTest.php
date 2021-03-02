@@ -7,7 +7,7 @@
 /**
  * Layout integration tests
  *
- * Note that some methods are not covered here, see the \Magento\Framework\View\LayoutDirectivesTest
+ * Note that some methods are not covered here, see the \Magento\Framework\view\LayoutDirectivesTest
  *
  * @see \Magento\Framework\View\LayoutDirectivesTest
  */
@@ -94,7 +94,7 @@ class LayoutTest extends \PHPUnit\Framework\TestCase
     /**
      * A smoke test for generating elements
      *
-     * See sophisticated tests at \Magento\Framework\View\LayoutDirectivesTest
+     * See sophisticated tests at \Magento\Framework\view\LayoutDirectivesTest
      * @see \Magento\Framework\View\LayoutDirectivesTest
      * @magentoAppIsolation enabled
      */

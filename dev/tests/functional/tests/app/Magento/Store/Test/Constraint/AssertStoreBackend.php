@@ -37,6 +37,6 @@ class AssertStoreBackend extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Store View is available in backend configuration (Stores > Configuration > "Scope" dropdown)';
+        return 'Store view is available in backend configuration (Stores > Configuration > "Scope" dropdown)';
     }
 }

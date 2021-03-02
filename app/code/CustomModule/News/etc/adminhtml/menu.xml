@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="CustomModule_News::news" title="News" translate="title" module="CustomModule_News" dependsOnModule="CustomModule_News" sortOrder="50" resource="CustomModule_News::news"/>
+        <add id="CustomModule_News::news_allnews" title="All News" translate="title" module="CustomModule_News" parent="CustomModule_News::news" sortOrder="10" dependsOnModule="CustomModule_News" action="news/allnews" resource="CustomModule_News::news"/>
+    </menu>
+</config>

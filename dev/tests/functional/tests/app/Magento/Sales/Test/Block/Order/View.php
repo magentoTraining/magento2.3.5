@@ -10,8 +10,8 @@ use Magento\Mtf\Block\Block;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Class View
- * View block on order's view page
+ * Class view
+ * view block on order's view page
  *
  * @SuppressWarnings(PHPMD.TooManyFields)
  */

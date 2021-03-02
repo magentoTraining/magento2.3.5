@@ -12,7 +12,7 @@ use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
  * Class AssertStoreInGrid
- * Assert that created Store View can be found in Stores grid
+ * Assert that created Store view can be found in Stores grid
  */
 class AssertStoreInGrid extends AbstractConstraint
 {
@@ -21,7 +21,7 @@ class AssertStoreInGrid extends AbstractConstraint
     /* end tags */
 
     /**
-     * Assert that created Store View can be found in Stores grid by name
+     * Assert that created Store view can be found in Stores grid by name
      *
      * @param StoreIndex $storeIndex
      * @param Store $store
@@ -44,6 +44,6 @@ class AssertStoreInGrid extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Store View is present in grid.';
+        return 'Store view is present in grid.';
     }
 }

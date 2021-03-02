@@ -11,7 +11,7 @@ use Magento\TestFramework\Request;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test for \Magento\Sales\Controller\Guest\View class.
+ * Test for \Magento\Sales\Controller\Guest\view class.
  */
 class ViewTest extends AbstractController
 {

@@ -10,7 +10,7 @@ namespace Magento\Review\Test\Block\Product;
 use Magento\Mtf\Block\Block;
 
 /**
- * Class View
+ * Class view
  * Reviews frontend block
  */
 class View extends Block

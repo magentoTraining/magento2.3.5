@@ -42,7 +42,7 @@ class CancelCreatedOrderTest extends Injectable
     protected $orderIndex;
 
     /**
-     * Order View Page.
+     * Order view Page.
      *
      * @var SalesOrderView
      */

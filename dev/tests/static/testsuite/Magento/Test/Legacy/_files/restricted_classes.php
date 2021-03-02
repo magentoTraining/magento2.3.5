@@ -206,12 +206,12 @@ return [
             [
                 'type' => 'library',
                 'name' => 'magento/framework',
-                'path' => 'View/Element/UiComponent/ArrayObjectFactory.php'
+                'path' => 'view/Element/UiComponent/ArrayObjectFactory.php'
             ],
             [
                 'type' => 'library',
                 'name' => 'magento/framework',
-                'path' => 'View/Element/UiComponent/Config/Provider/Component/Definition.php'
+                'path' => 'view/Element/UiComponent/Config/Provider/Component/Definition.php'
             ],
             [
                 'type' => 'library',
@@ -237,7 +237,7 @@ return [
             [
                 'type' => 'library',
                 'name' => 'magento/framework',
-                'path' => 'View/Element/UiComponent/Config/Provider/Component/Definition.php'
+                'path' => 'view/Element/UiComponent/Config/Provider/Component/Definition.php'
             ]
         ]
     ]

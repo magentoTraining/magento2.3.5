@@ -15,9 +15,9 @@ use Magento\Mtf\TestCase\Injectable;
  * Steps:
  * 1. Log in to Backend.
  * 2. Navigate to Content > Elements > Pages.
- * 3. Click "Add New Page", add page contents according to Test Data(Default Store View) and save.
- * 4. Click "Add New Page", add page contents according to Test Data(Custom Store View 1) and save.
- * 5. Click "Add New Page", add page contents according to Test Data(Custom Store View 2) and save.
+ * 3. Click "Add New Page", add page contents according to Test Data(Default Store view) and save.
+ * 4. Click "Add New Page", add page contents according to Test Data(Custom Store view 1) and save.
+ * 5. Click "Add New Page", add page contents according to Test Data(Custom Store view 2) and save.
  * 6. Save CMS Page.
  * 7. Verify created CMS Page.
  *

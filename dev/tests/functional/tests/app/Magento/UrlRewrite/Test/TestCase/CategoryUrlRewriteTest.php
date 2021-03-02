@@ -16,7 +16,7 @@ use Magento\Store\Test\Fixture\Store;
  * Test for Url rewrites in catalog categories after changing url key for store view and moving category.
  *
  * Preconditions:
- * 1. Create additional Store View in Main Website Store.
+ * 1. Create additional Store view in Main Website Store.
  * 2. Create sub-categories "first-test" and "second-test" in Default Category.
  * 3. Add one or more any products to created sub-categories.
  * 4. Reindex and clean caches.

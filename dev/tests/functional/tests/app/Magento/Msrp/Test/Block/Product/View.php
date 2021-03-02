@@ -28,7 +28,7 @@ class View extends \Magento\Catalog\Test\Block\Product\View
     protected $mapPopupBlock = '//ancestor::*[@id="map-popup-click-for-price"]/..';
 
     /**
-     * Open MAP block on Product View page.
+     * Open MAP block on Product view page.
      *
      * @return void
      */

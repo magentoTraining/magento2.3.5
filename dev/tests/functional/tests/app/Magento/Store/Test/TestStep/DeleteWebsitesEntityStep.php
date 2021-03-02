@@ -100,7 +100,7 @@ class DeleteWebsitesEntityStep implements TestStepInterface
     }
 
     /**
-     * Delete specific Store View.
+     * Delete specific Store view.
      *
      * @return void
      */

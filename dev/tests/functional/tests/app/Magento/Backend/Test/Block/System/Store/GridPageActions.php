@@ -15,14 +15,14 @@ use Magento\Backend\Test\Block\GridPageActions as ParentGridPageActions;
 class GridPageActions extends ParentGridPageActions
 {
     /**
-     * Add Store View button
+     * Add Store view button
      *
      * @var string
      */
     protected $addStoreViewButton = '#add_store';
 
     /**
-     * Click on Add Store View button
+     * Click on Add Store view button
      *
      * @return void
      */

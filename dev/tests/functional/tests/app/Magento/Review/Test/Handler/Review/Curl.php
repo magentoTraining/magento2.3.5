@@ -32,7 +32,7 @@ class Curl extends AbstractCurl implements ReviewInterface
             'Not Approved' => 3
         ],
         'select_stores' => [
-            'Main Website/Main Website Store/Default Store View' => 1
+            'Main Website/Main Website Store/Default Store view' => 1
         ]
     ];
 

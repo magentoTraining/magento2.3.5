@@ -25,9 +25,9 @@ use Magento\Config\Test\TestStep\SetupConfigurationStep;
  * 1. Open Backend
  * 2. Go to Stores -> All Stores
  * 3. Open created store view
- * 4. Click "Delete Store View"
+ * 4. Click "Delete Store view"
  * 5. Set "Create DB Backup" according to dataset
- * 6. Click "Delete Store View" - Warning message "This operation can take a long time" appears.
+ * 6. Click "Delete Store view" - Warning message "This operation can take a long time" appears.
  * 7. Click "OK".
  * 8. Perform all assertions
  *

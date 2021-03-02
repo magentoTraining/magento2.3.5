@@ -77,7 +77,7 @@ class Grid extends \Magento\Ui\Test\Block\Adminhtml\DataGrid
     }
 
     /**
-     * Click the 'View' link for invoice in Invoices grid.
+     * Click the 'view' link for invoice in Invoices grid.
      *
      * @return void
      */

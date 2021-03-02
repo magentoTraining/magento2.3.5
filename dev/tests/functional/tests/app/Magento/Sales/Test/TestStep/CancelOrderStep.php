@@ -30,7 +30,7 @@ class CancelOrderStep implements TestStepInterface
     private $order;
 
     /**
-     * Order View Page.
+     * Order view Page.
      *
      * @var SalesOrderView
      */

@@ -101,7 +101,7 @@ class ViewTest extends AbstractController
     }
 
     /**
-     * View product with custom attribute when attribute removed from it.
+     * view product with custom attribute when attribute removed from it.
      *
      * It tests that after changing product attribute set from Default to Custom
      * there are no warning messages in log in case Custom not contains attribute from Default.

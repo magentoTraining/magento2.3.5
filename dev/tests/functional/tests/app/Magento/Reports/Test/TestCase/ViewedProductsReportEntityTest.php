@@ -37,7 +37,7 @@ class ViewedProductsReportEntityTest extends Injectable
     /* end tags */
 
     /**
-     * Product Report View page
+     * Product Report view page
      *
      * @var ProductReportView
      */

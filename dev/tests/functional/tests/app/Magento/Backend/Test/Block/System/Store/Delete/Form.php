@@ -11,7 +11,7 @@ use Magento\Mtf\Block\Form as AbstractForm;
 
 /**
  * Class Form
- * Form for Store Group, Store View, Web Site deleting
+ * Form for Store Group, Store view, Web Site deleting
  */
 class Form extends AbstractForm
 {

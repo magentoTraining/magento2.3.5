@@ -13,7 +13,7 @@ use Magento\Store\Test\Fixture\Website;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Adminhtml Store View management grid.
+ * Adminhtml Store view management grid.
  */
 class StoreGrid extends Grid
 {
@@ -112,7 +112,7 @@ class StoreGrid extends Grid
     }
 
     /**
-     * Search and open appropriate Store View.
+     * Search and open appropriate Store view.
      *
      * @param Store $store
      * @return void

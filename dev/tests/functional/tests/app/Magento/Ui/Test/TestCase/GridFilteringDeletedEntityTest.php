@@ -19,7 +19,7 @@ use Magento\Ui\Test\Block\Adminhtml\DataGrid;
  * Steps:
  * 1. Log in to Admin.
  * 2. Go to grid page.
- * 3. Apply filter by Store View.
+ * 3. Apply filter by Store view.
  * 4. Delete Website.
  * 5. Go to grid page.
  * 6. Perform Asserts.

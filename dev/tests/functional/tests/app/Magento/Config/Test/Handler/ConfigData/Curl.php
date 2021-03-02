@@ -35,7 +35,7 @@ class Curl extends AbstractCurl implements ConfigDataInterface
         'scope' => [
             'Website' => 'website',
             'Store' => 'group',
-            'Store View' => 'store',
+            'Store view' => 'store',
         ],
     ];
 

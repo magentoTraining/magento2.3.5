@@ -164,7 +164,7 @@ class SampleRepositoryTest extends WebapiAbstract
             'isGlobalScopeContent' => false,
             'sku' => 'downloadable-product',
             'sample' => [
-                'title' => 'Store View Title',
+                'title' => 'Store view Title',
                 'sort_order' => 1,
                 'sample_url' => 'http://www.sample.example.com/',
                 'sample_type' => 'url',

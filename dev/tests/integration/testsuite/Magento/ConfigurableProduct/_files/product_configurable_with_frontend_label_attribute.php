@@ -13,7 +13,7 @@ require __DIR__ . '/configurable_products.php';
 // Add frontend label to created attribute:
 $frontendLabelAttribute = Bootstrap::getObjectManager()->get(FrontendLabel::class);
 $frontendLabelAttribute->setStoreId(1);
-$frontendLabelAttribute->setLabel('Default Store View label');
+$frontendLabelAttribute->setLabel('Default Store view label');
 
 $frontendLabels = $attribute->getFrontendLabels();
 $frontendLabels[] = $frontendLabelAttribute;

@@ -27,7 +27,7 @@ class Section extends DataSource
     const STORE_CODE = 'store';
 
     /**
-     * Store View or Website fixture.
+     * Store view or Website fixture.
      *
      * @var Store|Website
      */
@@ -177,7 +177,7 @@ class Section extends DataSource
     }
 
     /**
-     * Return Store View or Website fixture.
+     * Return Store view or Website fixture.
      *
      * @return Store|Website
      */

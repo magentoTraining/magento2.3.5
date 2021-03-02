@@ -52,7 +52,7 @@ class UpdateStoreEntityTest extends Injectable
     protected $editStore;
 
     /**
-     * Restore Default Store View step.
+     * Restore Default Store view step.
      *
      * @var RestoreDefaultStoreViewStep
      */

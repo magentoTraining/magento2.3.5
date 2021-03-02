@@ -98,7 +98,7 @@ class CustomerMetadataTest extends \PHPUnit\Framework\TestCase
             if (strpos($option->getLabel(), 'Main Website Store') !== false) {
                 $this->assertNotEmpty($option->getOptions());
                 //Check nested option
-                $this->assertTrue(strpos($option->getOptions()[0]->getLabel(), 'Default Store View') !== false);
+                $this->assertTrue(strpos($option->getOptions()[0]->getLabel(), 'Default Store view') !== false);
                 $nestedOptionExists = true;
             }
         }

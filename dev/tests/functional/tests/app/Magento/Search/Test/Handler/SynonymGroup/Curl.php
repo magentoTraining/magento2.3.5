@@ -36,7 +36,7 @@ class Curl extends AbstractCurl implements SynonymGroupInterface
         'scope_id' => [
             'All Websites' => '0:0',
             'All Store Views' => '1:0',
-            'Default Store View' => '1:1',
+            'Default Store view' => '1:1',
         ],
     ];
 

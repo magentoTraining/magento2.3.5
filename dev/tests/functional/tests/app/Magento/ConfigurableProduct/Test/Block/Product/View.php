@@ -12,7 +12,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
 use Magento\Mtf\Fixture\InjectableFixture;
 
 /**
- * Class View
+ * Class view
  * Product view block on frontend page
  */
 class View extends \Magento\Catalog\Test\Block\Product\View

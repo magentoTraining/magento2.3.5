@@ -10,7 +10,7 @@ use Magento\Catalog\Test\Block\Product\View as ParentView;
 use Magento\Mtf\Fixture\FixtureInterface;
 
 /**
- * Class View
+ * Class view
  * Grouped product view block on the product page
  */
 class View extends ParentView

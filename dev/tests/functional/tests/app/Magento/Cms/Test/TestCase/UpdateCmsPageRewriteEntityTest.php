@@ -86,7 +86,7 @@ class UpdateCmsPageRewriteEntityTest extends Injectable
      * @var array
      */
     protected $skippedStores = [
-        'Main Website/Main Website Store/Default Store View',
+        'Main Website/Main Website Store/Default Store view',
     ];
 
     /**

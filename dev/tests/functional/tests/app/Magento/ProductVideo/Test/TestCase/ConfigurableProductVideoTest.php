@@ -21,7 +21,7 @@ use Magento\Catalog\Test\Constraint\AssertProductSaveMessage;
  * 2. Create configurable product with several simple product variations.
  * 3. Add a video to a configurable product
  * 4. Add video to simple products of that configurable product.
- * 5. View that configurable product page on the frontend.
+ * 5. view that configurable product page on the frontend.
  * 6. Select the product configuration to display the simple product for which the video was added.
  * 7. Perform asserts.
  *

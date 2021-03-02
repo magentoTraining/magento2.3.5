@@ -37,7 +37,7 @@ class History extends Block
     protected $total = '.total span.price';
 
     /**
-     * View button css selector.
+     * view button css selector.
      *
      * @var string
      */

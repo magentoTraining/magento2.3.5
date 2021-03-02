@@ -8,7 +8,7 @@ namespace Magento\Framework\Mview\View;
 use Magento\Framework\App\ResourceConnection;
 
 /**
- * Test Class for \Magento\Framework\Mview\View\Changelog
+ * Test Class for \Magento\Framework\Mview\view\Changelog
  */
 class ChangelogTest extends \PHPUnit\Framework\TestCase
 {

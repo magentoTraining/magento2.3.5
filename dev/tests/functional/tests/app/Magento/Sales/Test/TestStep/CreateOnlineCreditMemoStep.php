@@ -30,7 +30,7 @@ class CreateOnlineCreditMemoStep implements TestStepInterface
     private $orderIndex;
 
     /**
-     * Order View Page.
+     * Order view Page.
      *
      * @var SalesOrderView
      */

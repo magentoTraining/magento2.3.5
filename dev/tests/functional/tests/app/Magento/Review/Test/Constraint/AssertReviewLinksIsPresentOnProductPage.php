@@ -45,7 +45,7 @@ class AssertReviewLinksIsPresentOnProductPage extends AbstractConstraint
         $viewReviewLink = $catalogProductView->getReviewSummary()->getViewReviewLink();
         \PHPUnit\Framework\Assert::assertTrue(
             $viewReviewLink->isVisible(),
-            'View review link is not visible on product page.'
+            'view review link is not visible on product page.'
         );
         \PHPUnit\Framework\Assert::assertContains(
             '1',

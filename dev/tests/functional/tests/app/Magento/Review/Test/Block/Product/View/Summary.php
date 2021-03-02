@@ -23,7 +23,7 @@ class Summary extends Block
     protected $addReviewLinkSelector = '.action.add';
 
     /**
-     * View review link selector.
+     * view review link selector.
      *
      * @var string
      */

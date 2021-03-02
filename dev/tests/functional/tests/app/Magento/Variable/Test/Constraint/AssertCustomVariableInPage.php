@@ -54,7 +54,7 @@ class AssertCustomVariableInPage extends AbstractConstraint
         $cmsPage->persist();
         $browser->open($_ENV['app_frontend_url'] . $cmsPage->getIdentifier());
 
-        $cmsIndex->getStoreSwitcherBlock()->selectStoreView('Default Store View');
+        $cmsIndex->getStoreSwitcherBlock()->selectStoreView('Default Store view');
 
         $htmlValue = $customVariableOrigin
             ? $this->getHtmlValue($customVariable, $customVariableOrigin)

@@ -51,7 +51,7 @@ class EditTest extends \PHPUnit\Framework\TestCase
         $integration = $this->getFixtureIntegration();
         $integration->setSetupType(Integration::TYPE_CONFIG);
         $buttonHtml = $this->editButtonBlock->render($integration);
-        $this->assertContains('title="View"', $buttonHtml);
+        $this->assertContains('title="view"', $buttonHtml);
         $this->assertContains('class="action info"', $buttonHtml);
     }
 

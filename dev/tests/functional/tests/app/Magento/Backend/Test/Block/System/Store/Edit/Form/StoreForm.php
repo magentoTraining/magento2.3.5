@@ -11,7 +11,7 @@ use Magento\Mtf\Client\Locator;
 
 /**
  * Class StoreForm
- * Form for Store View creation
+ * Form for Store view creation
  */
 class StoreForm extends Form
 {

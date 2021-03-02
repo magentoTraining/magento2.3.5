@@ -9,7 +9,7 @@ namespace Magento\SalesRule\Test\Block\Order;
 use Magento\Mtf\Client\Locator;
 
 /**
- * View block on order's view page.
+ * view block on order's view page.
  */
 class View extends \Magento\Sales\Test\Block\Order\View
 {

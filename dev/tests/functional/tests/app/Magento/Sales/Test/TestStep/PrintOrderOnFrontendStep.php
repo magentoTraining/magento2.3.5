@@ -16,7 +16,7 @@ use Magento\Mtf\TestStep\TestStepInterface;
 class PrintOrderOnFrontendStep implements TestStepInterface
 {
     /**
-     * View orders page.
+     * view orders page.
      *
      * @var SalesGuestView
      */

@@ -346,7 +346,7 @@ class MergeTest extends \PHPUnit\Framework\TestCase
         $this->_model->load();
         $expected = [
             'content' => 'Main Content Area',
-            'product.info.extrahint' => 'Product View Extra Hint',
+            'product.info.extrahint' => 'Product view Extra Hint',
             'product.info.configurable.extra' => 'Configurable Product Extra Info',
         ];
         $this->assertEquals($expected, $this->_model->getContainers());

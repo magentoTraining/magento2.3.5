@@ -54,7 +54,7 @@ class Store extends Block
         if (!$this->isVisible()) {
             return;
         }
-        $storeName = $fixture == null ? 'Default Store View' : $fixture->getName();
+        $storeName = $fixture == null ? 'Default Store view' : $fixture->getName();
         $selector = sprintf($this->store, $storeName);
         $this->_rootElement->find($selector, Locator::SELECTOR_XPATH, 'checkbox')->setValue('Yes');
         $this->getTemplateBlock()->waitLoader();

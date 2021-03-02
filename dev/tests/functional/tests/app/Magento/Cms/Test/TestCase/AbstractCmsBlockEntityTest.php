@@ -67,7 +67,7 @@ abstract class AbstractCmsBlockEntityTest extends Injectable
      */
     protected $skippedStores = [
         'All Store Views',
-        'Main Website/Main Website Store/Default Store View',
+        'Main Website/Main Website Store/Default Store view',
     ];
 
     /**

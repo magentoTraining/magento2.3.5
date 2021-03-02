@@ -82,7 +82,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
             [
                 'label' => '    Main Website Store',
                 'value' => [
-                    ['label' => '    Default Store View', 'value' => 1, '__disableTmpl' => true]
+                    ['label' => '    Default Store view', 'value' => 1, '__disableTmpl' => true]
                 ],
                 '__disableTmpl' => true,
             ],

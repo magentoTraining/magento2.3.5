@@ -12,7 +12,7 @@ use Magento\Mtf\Client\Locator;
 use Magento\Mtf\Fixture\FixtureInterface;
 
 /**
- * Class View
+ * Class view
  * Bundle product view block on the product page.
  */
 class View extends \Magento\Catalog\Test\Block\Product\View

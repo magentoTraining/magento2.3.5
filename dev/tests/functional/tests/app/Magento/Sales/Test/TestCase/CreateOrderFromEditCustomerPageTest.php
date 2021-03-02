@@ -103,7 +103,7 @@ class CreateOrderFromEditCustomerPageTest extends Injectable
     protected $orderCreateIndex;
 
     /**
-     * Order View Page.
+     * Order view Page.
      *
      * @var SalesOrderView
      */

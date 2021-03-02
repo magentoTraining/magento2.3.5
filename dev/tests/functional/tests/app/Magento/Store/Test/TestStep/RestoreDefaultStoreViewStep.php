@@ -15,7 +15,7 @@ use Magento\Store\Test\Fixture\Store;
 class RestoreDefaultStoreViewStep implements TestStepInterface
 {
     /**
-     * Fixture of Store View.
+     * Fixture of Store view.
      *
      * @var Store
      */
@@ -30,7 +30,7 @@ class RestoreDefaultStoreViewStep implements TestStepInterface
     }
 
     /**
-     * Restore Default Store View.
+     * Restore Default Store view.
      *
      * @return void
      */

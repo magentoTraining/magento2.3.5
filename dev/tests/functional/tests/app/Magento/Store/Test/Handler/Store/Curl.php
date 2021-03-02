@@ -56,7 +56,7 @@ class Curl extends AbstractCurl implements StoreInterface
         $response = $curl->read();
         $curl->close();
         if (strpos($response, 'data-ui-id="messages-message-success"') === false) {
-            throw new \Exception("Store View entity creating  by curl handler was not successful! Response: $response");
+            throw new \Exception("Store view entity creating  by curl handler was not successful! Response: $response");
         }
 
         return ['store_id' => $this->getStoreId($fixture->getName())];

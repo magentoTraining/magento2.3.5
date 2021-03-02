@@ -11,7 +11,7 @@ use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
  * Class AssertStoreSuccessSaveMessage
- * Assert that after Store View save successful message appears
+ * Assert that after Store view save successful message appears
  */
 class AssertStoreSuccessSaveMessage extends AbstractConstraint
 {
@@ -21,7 +21,7 @@ class AssertStoreSuccessSaveMessage extends AbstractConstraint
     const SUCCESS_MESSAGE = 'You saved the store view.';
 
     /**
-     * Assert that success message is displayed after Store View has been created
+     * Assert that success message is displayed after Store view has been created
      *
      * @param StoreIndex $storeIndex
      * @return void
@@ -42,6 +42,6 @@ class AssertStoreSuccessSaveMessage extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Store View success create message is present.';
+        return 'Store view success create message is present.';
     }
 }

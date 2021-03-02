@@ -56,7 +56,7 @@ class Switcher extends Block
     }
 
     /**
-     * Check is Store View Visible
+     * Check is Store view Visible
      *
      * @param Store $store
      * @return bool

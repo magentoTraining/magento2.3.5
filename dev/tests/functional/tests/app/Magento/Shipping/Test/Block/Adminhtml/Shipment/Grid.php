@@ -14,7 +14,7 @@ use Magento\Ui\Test\Block\Adminhtml\DataGrid as GridInterface;
 class Grid extends GridInterface
 {
     /**
-     * Locator value for "View" link inside action column.
+     * Locator value for "view" link inside action column.
      *
      * @var string
      */

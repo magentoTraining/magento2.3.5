@@ -13,12 +13,12 @@ use Magento\Mtf\Constraint\AbstractAssertForm;
 
 /**
  * Class AssertStoreForm
- * Assert that displayed Store View data on edit page equals passed from fixture
+ * Assert that displayed Store view data on edit page equals passed from fixture
  */
 class AssertStoreForm extends AbstractAssertForm
 {
     /**
-     * Assert that displayed Store View data on edit page equals passed from fixture
+     * Assert that displayed Store view data on edit page equals passed from fixture
      *
      * @param StoreIndex $storeIndex
      * @param StoreNew $storeNew
@@ -44,6 +44,6 @@ class AssertStoreForm extends AbstractAssertForm
      */
     public function toString()
     {
-        return 'Store View data on edit page equals data from fixture.';
+        return 'Store view data on edit page equals data from fixture.';
     }
 }

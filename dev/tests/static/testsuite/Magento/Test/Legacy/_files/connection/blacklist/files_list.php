@@ -14,5 +14,5 @@ return [
     ['Magento_CatalogImportExport' , 'Model/Export/Product.php'],
     ['Magento_EncryptionKey', 'Controller/Adminhtml/Crypt/Key/Index.php'],
     ['Magento_EncryptionKey', 'Model/Resource/Key/Change.php'],
-  //example  ['Magento_Backend', 'Model/View.php'],
+  //example  ['Magento_Backend', 'Model/view.php'],
 ];

@@ -34,7 +34,7 @@ class SignifydCancelOrderStep implements TestStepInterface
     private $order;
 
     /**
-     * Order View page.
+     * Order view page.
      *
      * @var SalesOrderView
      */
