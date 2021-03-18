@@ -1,0 +1,19 @@
+{
+  "name": "trainingshubham/customerattribute",
+  "description": "This Module is Creates for Adding 2 customer attribute and do action ",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.1.3||~7.2.0||~7.3.0"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "TrainingShubham\\CustomerAttribute\\": ""
+    }
+  }
+}

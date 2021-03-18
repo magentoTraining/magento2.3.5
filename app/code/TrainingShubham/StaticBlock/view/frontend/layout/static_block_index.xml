@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="3columns" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="left">
+            <block class="TrainingShubham/StaticBlock/Block/CustomBlock1" name="simple.block1" template="TrainingShubham_StaticBlock::test1.phtml"/>
+        </referenceContainer>
+
+        <referenceContainer name="content">
+            <block class="TrainingShubham/StaticBlock/Block/CustomBlock2" name="simple.block2" template="TrainingShubham_StaticBlock::test2.phtml"/>
+        </referenceContainer>
+
+        <referenceContainer name="right">
+            <block class="TrainingShubham/StaticBlock/Block/CustomBlock3" name="simple.block3" template="TrainingShubham_StaticBlock::test3.phtml"/>
+        </referenceContainer>
+
+    </body>
+</page>
