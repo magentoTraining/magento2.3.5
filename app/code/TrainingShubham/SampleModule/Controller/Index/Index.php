@@ -31,12 +31,13 @@ class Index extends Action
      */
     public function execute()
     {
-        echo "Hii";
+        echo "Hii <br>";
         $productCollection = $this->helper->getProductCollection();
-        foreach ($productCollection as $product) {
-            print_r($product->getData());
+        foreach ($productCollection as $product)
+        {
+            $data =$product->getData();
+            print_r($data);
             echo "<br>";
         }
-
     }
 }

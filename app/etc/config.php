@@ -268,7 +268,6 @@ return [
         'Temando_ShippingRemover' => 1,
         'TrainingShubham_AssignProducts' => 1,
         'TrainingShubham_CountryShipping' => 1,
-        'TrainingShubham_CrudExample' => 1,
         'TrainingShubham_CustomerAccount' => 0,
         'TrainingShubham_CustomerAttribute' => 1,
         'TrainingShubham_DailyDeals' => 1,

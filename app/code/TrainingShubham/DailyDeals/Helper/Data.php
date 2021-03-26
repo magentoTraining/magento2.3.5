@@ -1,7 +1,7 @@
 <?php
 
 
-namespace TrainingShubham\SampleModule\Helper\Data;
+namespace TrainingShubham\DailyDeals\Helper;
 
 
 use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory;
@@ -22,11 +22,7 @@ class Data extends AbstractHelper
     {
         $collection = $this->productCollectionFactory->create();
         $collection->addAttributeToSelect('*');
-        $collection->addAttributeToFilter('deal_status', array('eq' => 1));
+//        $collection->addAttributeToFilter('deal_status', array('eq' => 1));
         return $collection;
     }
-
-
-
-
 }
